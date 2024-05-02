@@ -1,2 +1,5 @@
 # Ignore Intellij files and folders
 /.idea/
+
+# Ignore files generated when developing/testing
+/test.yaml
