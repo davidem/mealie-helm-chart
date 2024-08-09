@@ -9,7 +9,7 @@ nameOverride: ""
 imagePullSecrets: []
 
 mealie:
-  # image details
+  # image details see: https://hub.docker.com/r/hkotel/mealie
   repository: "hkotel/mealie"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
