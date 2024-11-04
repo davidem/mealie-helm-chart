@@ -83,7 +83,7 @@ autoscaling:
 
 nodeSelector: {
     # Mealie does not work well on ARM architectures
-    kubernetes.io/arch: amd64
+    kubernetes.io/arch: arm64
 }
 
 tolerations: []
